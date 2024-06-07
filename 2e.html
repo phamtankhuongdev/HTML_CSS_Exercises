@@ -2,20 +2,30 @@
     .apply{
         background-color: rgb(10,102,194);
         border-style: none;
-        border-radius: 6px;
+        border-radius: 50px;
         color: white;
         height: 46px;
         width: 240px;
         font-size: 16px;
+        transition:0.6s background-color;
+    }
+    .apply:hover{
+        background-color: rgb(10, 92, 164);
     }
     .save{
         background-color: transparent;
         border-color: rgb(10, 102, 194);
-        border-radius: 6px;
-        color: rgb(10, 102, 194);
+        border-radius: 50px;
+        color: rgb(5, 94, 183);
+        font-weight: bold;
         height: 46px;
-        width: 120px;
+        width: 80px;
         font-size: 16px;
+        cursor: pointer;
+        transition: 0.6s background-color;
+    }
+    .save:hover{
+        background-color: rgb(173, 216, 230);
     }
 </style>
 <button class="apply">Apply on company website</button>
