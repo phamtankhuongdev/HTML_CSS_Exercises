@@ -1,0 +1,32 @@
+.email
+{
+    margin-bottom: 10px;
+}
+.by
+{
+    color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+button
+{
+    border-style: none;
+    color: white;
+    background-color: rgb(13, 103, 187);
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 500px;
+}
+p
+{
+    color: rgb(179, 177, 177);
+    font-size: 20px;
+}
+input
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 500px;
+}

@@ -1,0 +1,17 @@
+div
+{
+    text-align: center;
+    font-family: Montserrat;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+p
+{
+    font-size: 25px;
+}
+span
+{
+   text-decoration: underline;
+}

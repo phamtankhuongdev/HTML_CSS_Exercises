@@ -1,0 +1,13 @@
+.wolf3
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+.wolf4
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
