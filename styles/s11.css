@@ -1,0 +1,35 @@
+div
+{
+    align-items: center;
+}
+.first_and_last
+{
+    width:295px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: lightgray;
+    display: inline-block;
+    height:30px;
+}
+.email
+{
+    width:600px;
+    height:30px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: lightgray;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button
+{
+    display: block;
+    border-radius: 6px;
+    width: 604px;
+    color:white;
+    background-color: rgb(44, 44, 255);
+    border-style: none;
+    font-size: 20px;
+    margin-top:10px;
+}

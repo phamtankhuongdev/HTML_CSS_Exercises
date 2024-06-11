@@ -1,0 +1,55 @@
+.wolf2
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+.cover
+{
+    width:202px;
+    height:322px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: rgb(211, 197, 197);
+    padding:10px 20px;
+    display: inline-block;
+}
+.rectangle
+{
+    width:200px;
+    height:108px;
+    border-style: none;
+    box-shadow: 0.8px 0.8px 1px 1px lightgrey;
+}
+h1
+{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+p
+{
+    font-size:15px;
+    color: lightgray;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+button
+{
+    border-style: none;
+    color:white;
+    background-color: rgb(77, 187, 255);
+    border-radius: 6px;
+    padding:10px 20px;
+    font-size:16px;
+    margin-left: 6px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}

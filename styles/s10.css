@@ -1,0 +1,33 @@
+div
+{
+    text-align: center;
+}
+img
+{
+    width: 272px;
+    height: 92px;
+}
+input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    border-style: none;
+    border-radius:50px;
+    width:800px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    box-shadow: 1px 1px 2px 1px lightgrey;
+}
+button
+{
+    border-style: none;
+    color:black;
+    background-color: rgb(247, 247, 247);
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 10px 20px;
+}

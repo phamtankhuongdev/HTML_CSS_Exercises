@@ -1,0 +1,20 @@
+.div-2
+{
+    height:150px;
+    width:300px;
+    border-width:5px;
+    border-color: rgb(133, 131, 131);
+    font-size: 25px;
+    margin:auto;
+    border-style: solid;
+}
+p
+{
+    text-align: center;
+    margin-bottom: 0;
+}
+.div-1
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
