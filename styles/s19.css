@@ -24,15 +24,13 @@
     height: 20px;
     border-radius: 100%;
     object-fit: cover;
-    display: inline-block;
     margin-left: 6px;
     border-style: solid;
-    vertical-align: middle;
+    align-items: center;
 }
 .p1
 {
     font-size:15px;
-    display: inline-block;
     color: lightgray;
     margin-left: 0px;
     margin-top: 0;
@@ -41,8 +39,16 @@
 .b
 {
     margin-top: 0;
+    display:grid;
+    grid-template-columns:34px 1fr;
 }
 h1
 {
     margin-bottom: 2px;
+}
+.table
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
