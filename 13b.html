@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            .table
+            {
+                display:flex;
+                flex-direction: row;
+            }
+            .col1
+            {
+                width: 100px;
+                background-color: lightpink;
+            }
+            .col2
+            {
+                width:200px;
+                background-color: lightblue;
+                display:flex;
+                flex-direction: column;
+            }
+            p
+            {
+                margin-top: 0;
+                background-color: black;
+                color: white;
+                width:42px;
+            }
+            .ab
+            {
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="table">
+            <div class="col1">
+            </div>
+            <div class="col2">
+                row1
+                <div class="ab">
+                    <p>row2</p>
+                    <p>row2</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

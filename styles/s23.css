@@ -1,0 +1,62 @@
+.animal
+{
+    width:42px;
+    height: 42px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 6px;
+}
+.important
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.text
+{
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    color: lightgray;
+    height:110px;
+    width:376px;
+    border-style: solid;
+    padding: 16px;
+}
+.container-1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+.container-2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+}
+.sub-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+.time
+{
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 0;
+    margin-top: 0;
+}
