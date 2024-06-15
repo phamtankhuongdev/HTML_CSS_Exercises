@@ -1,0 +1,49 @@
+.container
+{
+    position: fixed;
+}
+.subcontainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:800px
+}
+img
+{
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.Add
+{
+    background-color: rgb(24, 89, 210);
+    color: white;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.Meg
+{
+    background-color: lightgrey;
+    color: black;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.td
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100;
+    justify-content: space-between;
+    padding: 10px;
+}
+body
+{
+    height: 3000px;
+}
