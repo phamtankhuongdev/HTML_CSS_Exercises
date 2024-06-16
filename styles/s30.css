@@ -1,0 +1,31 @@
+body
+{
+    height:3000px;
+}
+.container
+{
+    position: fixed;
+    bottom:16px;
+    right: 16px;
+    width: 320px;
+    height: 180px;
+    background-color: rgb(156, 154, 154);
+}
+.small-button
+{
+    position:relative;
+    height:30px;
+    width:30px;
+    border-radius: 100%;
+    right:0;
+    background-color: black;
+    font-size: 24px;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-bottom: 0;
+    color: white;
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -8px;
+}
