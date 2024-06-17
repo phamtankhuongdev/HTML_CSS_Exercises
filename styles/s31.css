@@ -1,0 +1,41 @@
+body
+{
+    height: 3000px;
+}
+.picture
+{
+    position: relative;
+    display: inline-block;
+}
+.picture1
+{
+    height:500px;
+    width:500px;
+}
+.tag
+{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top:10px;
+}
+button
+{
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    height: 50px;
+}
+.overlay
+{
+    background-color: rgba(245, 245, 245, 0.918);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height:100px;
+    bottom: 0;
+}
