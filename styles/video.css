@@ -1,6 +1,13 @@
 .thumbnail {
   width: 100%;
 }
+a
+{
+  text-decoration: none;
+  font-family: Roboco,"Arial";
+  color: black;
+  font-weight: bold;
+}
 
 .video-title {
   margin-top: 0;
