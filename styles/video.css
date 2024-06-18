@@ -31,6 +31,46 @@ a
   margin-bottom: 8px;
   position: relative;
 }
+.channel-picture
+{
+  display: inline-block;
+  position: relative;
+}
+.channel-picture .tooltip
+{
+  width:154px;
+  height:60px;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  background-color: white;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -40px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.bigsize
+{
+  width:40px;
+  border-radius: 90px;
+  margin-right: 4px;
+}
+
+.channel-picture:hover .tooltip
+{
+  opacity: 1;
+}
 
 .video-author,
 .video-stats {
@@ -46,7 +86,7 @@ a
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
-  row-gap: 40px;
+  row-gap: 50px;
 }
 
 .video-time {
@@ -63,4 +103,19 @@ a
   position: absolute;
   bottom: 8px;
   right: 5px;
+}
+
+.infor
+{
+  display: inline-block;
+}
+
+.infor .video-author
+{
+  font-weight: bold;
+  color: black;
+}
+.infor .sucribers
+{
+  color: rgb(96, 96, 96);
 }
